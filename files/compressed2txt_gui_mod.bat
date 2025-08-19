@@ -273,7 +273,7 @@ $fileListBox.SelectionMode = "MultiExtended"
 $fileListBox.Font = New-Object System.Drawing.Font("Segoe UI", 8)
 $fileListBox.AllowDrop = $true
 $fileListBox.ScrollAlwaysVisible = $true
-$fileListBox.HorizontalScrollbar = $false
+$fileListBox.HorizontalScrollbar = $true
 $fileGroup.Controls.Add($fileListBox)
 
 ## Function to resize listbox dynamically
